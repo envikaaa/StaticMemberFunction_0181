@@ -13,5 +13,5 @@ public:
     void setID();
     void printAll();
 
-    
+    //pembuatan constructor Mahasiswa dengan parameter pnama
     }
