@@ -24,5 +24,9 @@ int Mahasiswa::nim = 10;
 
 //mengimplementasikan prosedur-prosedur diluar class
 void Mahasiswa::setID() {
+    id = ++nim;
+}
+
+void Mahasiswa::printAll(){
     
 }
