@@ -14,4 +14,10 @@ public:
     void printAll();
 
     //pembuatan constructor Mahasiswa dengan parameter pnama
+    Mahasiswa(string pnama) :nama(pnama) {
+        setID();
     }
+};
+
+//memberi value ke variabel nim dari class mahasiswa
+int Mahasiswa::nim = 10;
