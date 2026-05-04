@@ -28,5 +28,13 @@ void Mahasiswa::setID() {
 }
 
 void Mahasiswa::printAll(){
-    
+    cout << "ID : " << id << endl;
+    cout << "Nama : " << nama << endl;
+    cout << endl;
+};
+
+int main() {
+
+    //membuat object dan memberi nilai
+    Mahasiswa mhs1("Lia Kurnia");
 }
